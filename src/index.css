@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+@import "tailwindcss";
+
+html,
+body,
+#root {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+@theme {
+    --font-ghibli: "Agbalumo", cursive;
+}
