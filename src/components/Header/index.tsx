@@ -16,6 +16,11 @@ export const Header = () => {
                             Studio Ghibli
                         </Link>
                     </div>
+                    <div>
+                        <Link to="/" className="font-ghibli text-2sm text-amber-400 hover:text-amber-600 transition-colors">
+                            Voltar para filmes
+                        </Link>
+                    </div>
                     
                 </div>
             </nav>

@@ -45,7 +45,7 @@ export const Home = () => {
 
     return (
         <div
-            className="min-h-[calc(100vh-64px)] bg-cover bg-center bg-no-repeat flex flex-col overflow-y-auto"
+            className="h-screen w-full bg-cover bg-center bg-no-repeat flex flex-col overflow-y-auto"
             style={{
                backgroundImage: `url(${bgImage})`,
             }}
